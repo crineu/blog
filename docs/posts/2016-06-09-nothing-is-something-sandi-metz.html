@@ -1,0 +1,103 @@
+<h2>Picking on conditions</h2>
+<blockquote>
+<p>I come from smaltalk, with only 6 reserved words – and if was not one of them.</p>
+</blockquote>
+<p>I don’t want a condition, I just want to send a message to an object (<em>if is bad; it halts your OO thinking and leads you to write procedural code</em>).</p>
+<pre><code>class Object
+  def if_true() yield; end
+  def if_false() self; end    
+end 
+
+class FalseClass
+  def if_true()   self; end
+  def if_false() yield; end    
+end
+
+class NilClass
+  def if_true()   self; end
+  def if_false() yield; end    
+end
+```
+
+So we can do things like...
+
+```
+&quot;anything&quot;.if_true { puts &quot;evaluated block&quot; }
+nil.if_false {puts &quot;evaluated block&quot; }
+
+(1 == 1).
+  if_true {puts &quot;it's true&quot;}.
+  if_false {puts &quot;it's false&quot;}
+```
+
+&gt; Do not do it
+
+---
+
+## Null Object Pattern
+
+```
+ids = ['pig', '', 'sheep']
+animals = ids.map{ |id| Animal.find(id) }
+```
+```
+=&gt; [#&lt;Animal: @name='pig'&gt;,
+    nil,
+    #&lt;Animal: @name='sheep'&gt;]
+```
+```
+animals.each {|animal|
+  if animal.is_a?(NilClass)
+    puts 'No animal'
+  else
+    puts animal.name
+  end
+}
+``` 
+
+Let's use __Null Object Pattern__
+
+```
+class MissingAnimal
+  def name() 'No animal'; end
+end
+```
+
+Now we can do this:
+
+```
+ids = ['pig', '', 'sheep']
+animals = ids.map{ |id| Animal.find(id) || MissingAnimal.new }
+```
+```
+=&gt; [#&lt;Animal: @name='pig'&gt;,
+    #&lt;MissingAnimal&gt;,
+    #&lt;Animal: @name='sheep'&gt;]
+```
+```
+animals.each {|animal| puts animal.name }
+``` 
+
+And this can became better with
+
+```
+class GuaranteedAnimal
+  def self.find(id)
+    Animal.find(id) || MissingAnimal.new
+  end
+end
+```
+
+...because we replace&lt;br/&gt;
+`animals = ids.map{ |id| Animal.find(id) || MissingAnimal.new }` &lt;br/&gt;
+with
+`animals = ids.map{ |id| GuaranteedAnimal.find(id) }`
+
+&gt; If you can take this home and use it, it will improve your code.
+
+
+## Composition over inheritance
+
+Here we need some code to show.
+Sorry folks ):
+</code></pre>
