@@ -8,5 +8,12 @@ do
             sed -e 's/md$/html/')
 
   echo "Gerando arquivo ${HTML_FILE}"
-  (cmark --validate-utf8 --smart --to html <(sed '1,8d' <"${md_file}")) > "${HTML_FILE}"
+
+  echo "<!DOCTYPE html>" >  "${HTML_FILE}"
+  echo "<html>"          >> "${HTML_FILE}"
+  (cat docs/head.html | sed -e 's/__TITLE__/Título_aqui?/')     >> "${HTML_FILE}"
+  echo "<body>"          >> "${HTML_FILE}"
+  (cmark --validate-utf8 --smart --to html <(sed '1,8d' <"${md_file}")) >> "${HTML_FILE}"
+  echo "</body>"         >> "${HTML_FILE}"
+  echo "</html>"         >> "${HTML_FILE}"
 done
