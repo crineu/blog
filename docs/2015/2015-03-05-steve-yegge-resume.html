@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>[book] Steve Yegge resume</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='../assets/splendor.css'>
+</head>
+
+<body>
+
+<h2>[book] Steve Yegge resume</h2>
+<p></p>
+
+<pre><code>A Programmer’s Rantings: On Programming-Language Religions, Code Philosophies, Google Work Culture, and Other Stuff (Steve Yegge, 2012)
+</code></pre>
+<h4>Little note to programmers</h4>
+<blockquote>
+<p>READ THE WHOLE BOOK</p>
+</blockquote>
+<hr />
+<h4>Math for programmers</h4>
+<p>You need to learn</p>
+<ul>
+<li><strong>Probabilities</strong></li>
+<li><strong>Discrete math</strong> (math on integers)</li>
+<li><strong>Statistics</strong></li>
+<li><strong>Algebra</strong> and <strong>Linear Algebra</strong> (matrices)</li>
+<li><strong>Mathematical Logic</strong> (whatever it is)</li>
+<li><strong>Information Theory</strong> (data compression) and <strong>Kolmogorov Complexity</strong> (algorithmic complexity)</li>
+</ul>
+<blockquote>
+<p>I think the best way to start learning math is to spend 15 to 30 minutes a day surfing in Wikipedia. It’s filled with articles about thousands of little branches of mathematics. You start with pretty much any article that seems interesting. Start reading. If there’s something you don’t understand, click the link and read about it. Do this recursively until you get bored or tired.</p>
+</blockquote>
+<hr />
+<h4>Get that job at Google</h4>
+<p>Long-term warm-ups:</p>
+<ul>
+<li>
+<p><strong>Study a data-structure and algorithm book</strong>: will help you with problem identification</p>
+</li>
+<li>
+<p>Steven Skiena’s The Algorithm Design Manual</p>
+</li>
+<li>
+<p>Introduction to Algorithms</p>
+</li>
+<li>
+<p><strong>Have another person interview you</strong>: do a fake interview first; prepare yourself</p>
+</li>
+</ul>
+<h6>Some Tech Prep Tips:</h6>
+<ul>
+<li><strong>Algorithm Complexity</strong>: you must know big-O</li>
+<li><strong>Sorting</strong>: quicksort and merge sort, at minimum; don’t try to sort a linked list;</li>
+<li><strong>Hashtables</strong></li>
+<li><strong>Trees</strong>: construction, manipulation, traversal; binary, n-ary and trie-trees.</li>
+<li><strong>Graphs</strong></li>
+<li><strong>Math</strong></li>
+<li><strong>Operating System</strong>: processes, threads, concurrency issues; locks, mutexes, semaphores and monitors.</li>
+<li><strong>Coding</strong>: you should know at least one programming language very well</li>
+</ul>
+<hr />
+<h4>Jeff Bezos’ Big Mandate</h4>
+<ol>
+<li>All teams will henceforth expose their data and functionality through service interfaces.</li>
+<li>Teams must communicate with each other through these interfaces.</li>
+<li>There will be no other form of interprocess communication allowed: no direct linking, no direct reads of another team’s data store, no shared-memory model, no backdoors whatsoever. The only communication allowed is via service interface calls over the network.</li>
+<li>It doesn’t matter what technology they use. HTTP, Corba, Pubsub, custom protocols — doesn’t matter. Bezos doesn’t care.</li>
+<li>All service interfaces, without exception, must be designed from the ground up to be externalizable. That is to say, the team must plan and design to be able to expose the interface to developers in the outside world. No exceptions.</li>
+<li>Anyone who doesn’t do this will be fired.</li>
+</ol>
+<hr />
+<h4>Rich Programmer Food</h4>
+<p>How a compiler works. There are three separate phases</p>
+<ul>
+<li><strong>Parsing</strong>: take your input and turn it into a tree</li>
+<li><strong>Preprocessing</strong>;</li>
+<li><strong>Lexical analysis</strong> (tokenization) usually done with regexps;</li>
+<li><strong>Syntax analysis</strong> usually done with grammars;</li>
+<li><strong>Intermediate Representation generation</strong></li>
+<li><strong>Type Checking</strong></li>
+<li><strong>Code Generation</strong>: code generation is pretty straightforward, assuming you know enough recursion to realize your grandparents weren’t Adam and Eve.</li>
+</ul>
+<p>You should write one.</p>
+</body>
+</html>

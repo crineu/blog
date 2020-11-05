@@ -15,7 +15,11 @@
 #### convert_md_to_html.sh: **cmark**
 
 * sh: for each file in `/markdown`
-* `cmark` it and write at same location in `/docs`
+* create the `.html` file in the same location in `/docs`
+* fill the `<head>` tag using `docs/header.html` file
+* write the title and excerpt
+* insert the image (if present)
+* `cmark` it and write inside the `<body>`
 
 
 #### Images

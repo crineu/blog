@@ -1,5 +1,5 @@
 ---
-title: [book] The Fountainhead  1/2
+title: [book] The Fountainhead 1
 slug: the-fountainhead
 date_published: 2015-04-23T21:06:00.000Z
 date_updated: 2017-05-02T22:56:08.000Z
@@ -7,7 +7,7 @@ tags: books, money
 ---
 
     The Fountainhead (Ayn Rand, 1943)
-    
+
 
 ### At the new job
 
