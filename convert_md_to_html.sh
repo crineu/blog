@@ -23,11 +23,13 @@ do
   (cat docs/head.html | sed -e "s/__TITLE__/${TITLE}/") >> "${HTML_FILE}"
   echo ""                  >> "${HTML_FILE}"
   echo "<body>"            >> "${HTML_FILE}"
+  echo '<div class="pad2y limiter content">' >> "${HTML_FILE}"
   echo ""                  >> "${HTML_FILE}"
   echo "<h2>${TITLE}</h2>" >> "${HTML_FILE}"
   echo "<p>${EXCERPT}</p>" >> "${HTML_FILE}"
   echo ""                  >> "${HTML_FILE}"
   (cmark --validate-utf8 --smart --to html <(echo "${MD_CONTENT}"))  >> "${HTML_FILE}"
+  echo "</div>"            >> "${HTML_FILE}"
   echo "</body>"           >> "${HTML_FILE}"
   echo "</html>"           >> "${HTML_FILE}"
 done
