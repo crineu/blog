@@ -20,6 +20,7 @@
 * write the title and excerpt
 * insert the image (if present)
 * `cmark` it and write inside the `<body>`
+* generate `index.html` with correct links
 
 
 #### Images
