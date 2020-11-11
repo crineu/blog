@@ -12,7 +12,8 @@ tags: tips, ruby
 2. A **proc** is a saved block we can use over and over.
 3. A **lambda** is just like a **proc**, only it cares about the *number of arguments* it gets and it *returns to its calling method* rather than returning immediately.
 
----
+![Super Mario](../images/supermariobros.jpg)
+
 
 ### Almost everything is an object
 
@@ -24,7 +25,7 @@ Think of a *proc* as a saved block.
       n % 3 == 0
     end
     (1..100).to_a.select(&multiples_of_3)
-    
+
 
 #### Why Procs?
 
@@ -38,7 +39,7 @@ Unlike blocks, we can call procs directly by using Ruby’s `.call` method.
     test = Proc.new { # does something }
     test.call
     # does that something!
-    
+
 
 #### Symbols, Meet Procs
 
@@ -47,7 +48,7 @@ Now that you’re learning some of the more complex parts of the Ruby language, 
     strings = ["1", "2", "3"]
     nums = strings.map(&:to_i)
     # >>> [1, 2, 3]
-    
+
 
 By mapping `&:to_i` over every element of strings, we turned each string into an integer!
 
@@ -62,8 +63,8 @@ Lambdas are defined using the following syntax: `lambda { |param| block }`
     strings = ["leonardo", "donatello", "raphael", "michaelangelo"]
     symbolize = lambda { |x| x.to_sym }
     symbols = strings.collect(&symbolize)
-    # >>> [:leonardo, :donatello, :raphael, :michaelangelo] 
-    
+    # >>> [:leonardo, :donatello, :raphael, :michaelangelo]
+
 
 #### Lambdas vs. Procs
 

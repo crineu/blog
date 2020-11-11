@@ -1,5 +1,5 @@
 ---
-title: [tip] Using Dashes and Quotes
+title: [tips] Using Dashes and Quotes
 slug: using-dashes
 date_published: 2015-10-08T17:38:00.000Z
 date_updated: 2017-05-02T23:03:06.000Z
@@ -23,7 +23,9 @@ Use **EM dashes** to introduce speakers in narrative dialogue.
 
 Always **‘use’** the **“curly”** ones, unless you know what **"you"** are **'doing'**.
 
----
+
+![Dashes](../images/hyphens.jpg)
+
 
 ##### Windows
 

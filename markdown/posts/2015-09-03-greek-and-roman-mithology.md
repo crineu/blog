@@ -22,7 +22,7 @@ tags: mooc, greek, history
 - **Hector** is the greatest trojan warrior, defeated by **Achilles**;
 - **Eneas** is the second most valuable trojan warrior after **Hector**;
 
----
+![Trojan Horse](../images/trojan_horse.jpg)
 
 ## Laws
 
@@ -78,7 +78,7 @@ Odysseus being Odysseus
 **Bronisaw Malinowski**
 
 > When cultures tell myths to themselves, what they’re doing is **legitimizing certain kinds of underlying social and cultural norms** that they hold dear.
-> 
+>
 > So myths are myths because they serve a certain kind of function, and the function they serve is that **they legitimize**.
 
 > Origin is not important when it comes to functionalism.
@@ -88,7 +88,7 @@ Odysseus being Odysseus
 **Claude Levi-Strauss**
 
 > **Myth reflects human mind** => binary representations of everything.
-> 
+>
 > Which part of the narrative reflect one theme and which part reflect the oposite theme - the order doesn’t matter.
 
 > Find the two biological opositions (food / not food). These binary pairs do not reconciliate.

@@ -7,7 +7,9 @@ tags: books, politics, history
 ---
 
     Guia Politicamente Incorreto da Filosofia (Pondé, Luiz Felipe)
-    
+
+
+![PC Principal](../images/pc.jpg)
 
 ## Os melhores
 

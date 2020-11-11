@@ -1,13 +1,15 @@
 ---
-title: James Kalb on feminism
+title: [quotes] James Kalb on feminism
 slug: james-kalb-about-feminism
 date_published: 2017-05-31T05:57:36.000Z
 date_updated: 2017-05-31T05:58:40.000Z
-tags: quotes, books
+tags: quotes
 ---
 
     Against Inclusiveness (James Kalb)
-    
+
+![Family](../images/family.jpg)
+
 
 ### “It is quite natural that the sexual and feminist revolutions have made woman unhappy.
 

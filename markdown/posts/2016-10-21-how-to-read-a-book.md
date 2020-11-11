@@ -1,10 +1,12 @@
 ---
-title: How to read a Book
+title: [tips] How to read a Book
 slug: how-to-read-a-book
 date_published: 2016-10-21T21:55:31.000Z
 date_updated: 2018-05-21T17:50:43.000Z
-tags: books, tips, lessons
+tags: tips
 ---
+
+![Book](../images/book.jpg)
 
 ### 1. Find a personal angle
 

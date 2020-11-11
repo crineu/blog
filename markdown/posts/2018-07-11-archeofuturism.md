@@ -1,12 +1,15 @@
 ---
-title: Arcaico Futurismo
-slug: anarcheofuturims
+title: [book] Arcaico Futurismo
+slug: archeofuturism
 date_published: 2018-07-11T17:29:00.000Z
 date_updated: 2018-09-25T19:20:14.000Z
 tags: books, politics
 ---
 
 > Archeofuturism: European Visions of the Post-Catastrophic Age (Faye, Guillaume - 1998)
+
+![Guillaume Faye](../images/faye.jpg)
+
 
 ## First claim
 

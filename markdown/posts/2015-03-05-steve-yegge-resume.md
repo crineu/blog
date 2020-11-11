@@ -7,15 +7,16 @@ tags: books, programming
 ---
 
     A Programmer’s Rantings: On Programming-Language Religions, Code Philosophies, Google Work Culture, and Other Stuff (Steve Yegge, 2012)
-    
+
 
 #### Little note to programmers
 
 > READ THE WHOLE BOOK
 
----
+![Warning! Rant](../images/rant.jpg)
 
-#### Math for programmers
+
+### Math for programmers
 
 You need to learn
 
@@ -30,7 +31,7 @@ You need to learn
 
 ---
 
-#### Get that job at Google
+### Get that job at Google
 
 Long-term warm-ups:
 
@@ -41,7 +42,7 @@ Long-term warm-ups:
 
 - **Have another person interview you**: do a fake interview first; prepare yourself
 
-###### Some Tech Prep Tips:
+#### Some Tech Prep Tips:
 
 - **Algorithm Complexity**: you must know big-O
 - **Sorting**: quicksort and merge sort, at minimum; don’t try to sort a linked list;

@@ -121,7 +121,7 @@
 <li>A <strong>proc</strong> is a saved block we can use over and over.</li>
 <li>A <strong>lambda</strong> is just like a <strong>proc</strong>, only it cares about the <em>number of arguments</em> it gets and it <em>returns to its calling method</em> rather than returning immediately.</li>
 </ol>
-<hr />
+<p><img src="../images/supermariobros.jpg" alt="Super Mario" /></p>
 <h3>Almost everything is an object</h3>
 <p><strong>Blocks</strong> are not objects, and this is one of the very few exceptions. Because of this, blocks can’t be saved to variables and don’t have all the powers and abilities of a real object. For that, we’ll need… <strong>procs</strong>!</p>
 <p>Think of a <em>proc</em> as a saved block.</p>
@@ -155,7 +155,7 @@ nums = strings.map(&amp;:to_i)
 <pre><code>strings = [&quot;leonardo&quot;, &quot;donatello&quot;, &quot;raphael&quot;, &quot;michaelangelo&quot;]
 symbolize = lambda { |x| x.to_sym }
 symbols = strings.collect(&amp;symbolize)
-# &gt;&gt;&gt; [:leonardo, :donatello, :raphael, :michaelangelo] 
+# &gt;&gt;&gt; [:leonardo, :donatello, :raphael, :michaelangelo]
 </code></pre>
 <h4>Lambdas vs. Procs</h4>
 <p>If you’re thinking that procs and lambdas look super similar, that’s because they are! There are only two main differences.</p>

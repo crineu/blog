@@ -7,24 +7,19 @@ tags: history, politics
 ---
 
     Our Culture, or What's Left of It (Theodore Dalrymple, 2010)
-    
 
-## Snippets
 
-- 
-What is this but a manifesto for Cool Britannia *avant la lettre*, an expression of the **shallow belief** that the new is better than the old merely by virtue of its novelty?
+![Our culture](../images/our_culture.jpg)
 
-- 
-And what is political correctness but Newspeak, the attempt to make certain thoughts inexpressible through the reform of language?
+- What is this but a manifesto for Cool Britannia *avant la lettre*, an expression of the **shallow belief** that the new is better than the old merely by virtue of its novelty?
 
-- 
-Like all pacifists, Zweig evaded the question of how to protect the peaceful sheep from the ravening wolves, no doubt in the unrealistic hope that the wolves would one day discover the advantages of vegetarianism.
+- And what is political correctness but Newspeak, the attempt to make certain thoughts inexpressible through the reform of language?
 
-- 
-No man was more sensitive than Zweig to the destructive effects upon individual liberty of the demands of large or strident collectivities. He would have viewed with horror the cacophony of monomanias — sexual, racial, social, egalitarian — that marks the intellectual life of our societies, **each monomaniac demanding legislative restriction on the freedom of others in the name of a supposed greater, collective good**.
+- Like all pacifists, Zweig evaded the question of how to protect the peaceful sheep from the ravening wolves, no doubt in the unrealistic hope that the wolves would one day discover the advantages of vegetarianism.
 
-- 
-Macbeth is aware throughout the play that what he does is morally wrong: he never claims (as do so many modern relativists) that fair is foul and foul is fair.
+- No man was more sensitive than Zweig to the destructive effects upon individual liberty of the demands of large or strident collectivities. He would have viewed with horror the cacophony of monomanias — sexual, racial, social, egalitarian — that marks the intellectual life of our societies, **each monomaniac demanding legislative restriction on the freedom of others in the name of a supposed greater, collective good**.
+
+- Macbeth is aware throughout the play that what he does is morally wrong: he never claims (as do so many modern relativists) that fair is foul and foul is fair.
 
 ---
 

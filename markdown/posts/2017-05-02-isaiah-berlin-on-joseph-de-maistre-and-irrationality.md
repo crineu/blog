@@ -1,13 +1,13 @@
 ---
-title: Isaiah Berlin on Joseph de Maistre and irrationality
+title: [quotes] Isaiah Berlin on Joseph de Maistre and irrationality
 slug: isaiah-berlin-on-joseph-de-maistre-and-irrationality
 date_published: 2017-05-02T22:45:51.000Z
 date_updated: 2017-05-02T22:45:51.000Z
-tags: quotes, books
+tags: quotes
 ---
 
     Two Enemies of the Enlightenment (Isaiah Berlin)
-    
+
 
 ### “It is also said that man is by nature rational.
 
@@ -22,6 +22,8 @@ Let us consider this proposition too, says Maistre. Consider the institutions by
 Nevertheless, marriage is the one fundamental institution upon which human society is founded, and **all attempts at creating societies founded upon free love have toppled**.
 
 ---
+
+![Charles X of France](../images/charles-X.jpg)
 
 #### Consider the institution of monarchy.
 

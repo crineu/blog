@@ -8,6 +8,7 @@ tags: books, money
 
     The Fountainhead (Ayn Rand, 1943)
 
+![The Fountainhead](../images/fountainhead.jpg)
 
 ### At the new job
 

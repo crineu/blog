@@ -7,7 +7,9 @@ tags: laws
 ---
 
     São três os crimes contra a honra, previstos nos artigos 138, 139 e 140 do Código Penal.
-    
+
+
+![Crimes contra a Honra](../images/crimes_contra_a_honra.jpg)
 
 ## Calúnia
 

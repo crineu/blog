@@ -6,7 +6,10 @@ date_updated: 2017-05-02T22:53:50.000Z
 tags: bible, history
 ---
 
-### The story
+## The story
+
+![David and Goliath](../images/david-goliath.jpg)
+
 
 **Philipines** and **Israelites** armies were stalled for weeks at the top of opposite mountains, because no one wanted to attack from the valley.
 

@@ -3,7 +3,7 @@
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>"Sandi Metz</title>
+  <title>[coding] "Sandi Metz</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
 
   <!-- CSS from macwright.com -->
@@ -112,112 +112,90 @@
 <body>
 <div class="pad2y limiter content">
 
-<h2>"Sandi Metz</h2>
+<h2>[coding] "Sandi Metz</h2>
 <p></p>
 
+<p><img src="../images/s_metz.jpg" alt="Sandy Metz" /></p>
 <h2>Picking on conditions</h2>
 <blockquote>
 <p>I come from smaltalk, with only 6 reserved words – and if was not one of them.</p>
 </blockquote>
 <p>I don’t want a condition, I just want to send a message to an object (<em>if is bad; it halts your OO thinking and leads you to write procedural code</em>).</p>
-<pre><code>class Object
+<pre><code class="language-ruby">class Object
   def if_true() yield; end
-  def if_false() self; end    
-end 
+  def if_false() self; end
+end
 
 class FalseClass
   def if_true()   self; end
-  def if_false() yield; end    
+  def if_false() yield; end
 end
 
 class NilClass
   def if_true()   self; end
-  def if_false() yield; end    
+  def if_false() yield; end
 end
-```
-
-So we can do things like...
-
-```
-&quot;anything&quot;.if_true { puts &quot;evaluated block&quot; }
-nil.if_false {puts &quot;evaluated block&quot; }
+</code></pre>
+<p>So we can do things like…</p>
+<pre><code class="language-ruby">&quot;anything&quot;.if_true { puts &quot;evaluated block&quot; }
+nil.if_false       { puts &quot;evaluated block&quot; }
 
 (1 == 1).
-  if_true {puts &quot;it's true&quot;}.
-  if_false {puts &quot;it's false&quot;}
-```
-
-&gt; Do not do it
-
----
-
-## Null Object Pattern
-
-```
-ids = ['pig', '', 'sheep']
+  if_true  { puts &quot;it's true&quot; }
+  if_false { puts &quot;it's false&quot; }
+</code></pre>
+<blockquote>
+<p>Do not do it</p>
+</blockquote>
+<hr />
+<h2>Null Object Pattern</h2>
+<pre><code class="language-ruby">ids = ['pig', '', 'sheep']
 animals = ids.map{ |id| Animal.find(id) }
-```
-```
-=&gt; [#&lt;Animal: @name='pig'&gt;,
+</code></pre>
+<pre><code class="language-ruby">=&gt; [#&lt;Animal: @name='pig'&gt;,
     nil,
     #&lt;Animal: @name='sheep'&gt;]
-```
-```
-animals.each {|animal|
+</code></pre>
+<pre><code class="language-ruby">animals.each {|animal|
   if animal.is_a?(NilClass)
     puts 'No animal'
   else
     puts animal.name
   end
 }
-``` 
-
-Let's use __Null Object Pattern__
-
-```
-class MissingAnimal
+</code></pre>
+<p>Let’s use <strong>Null Object Pattern</strong></p>
+<pre><code class="language-ruby">class MissingAnimal
   def name() 'No animal'; end
 end
-```
-
-Now we can do this:
-
-```
-ids = ['pig', '', 'sheep']
+</code></pre>
+<p>Now we can do this:</p>
+<pre><code class="language-ruby">ids = ['pig', '', 'sheep']
 animals = ids.map{ |id| Animal.find(id) || MissingAnimal.new }
-```
-```
-=&gt; [#&lt;Animal: @name='pig'&gt;,
+</code></pre>
+<pre><code class="language-ruby">=&gt; [#&lt;Animal: @name='pig'&gt;,
     #&lt;MissingAnimal&gt;,
     #&lt;Animal: @name='sheep'&gt;]
-```
-```
-animals.each {|animal| puts animal.name }
-``` 
-
-And this can became better with
-
-```
-class GuaranteedAnimal
+</code></pre>
+<pre><code class="language-ruby">animals.each {|animal| puts animal.name }
+</code></pre>
+<p>And this can became better with</p>
+<pre><code class="language-ruby">class GuaranteedAnimal
   def self.find(id)
     Animal.find(id) || MissingAnimal.new
   end
 end
-```
-
-...because we replace&lt;br/&gt;
-`animals = ids.map{ |id| Animal.find(id) || MissingAnimal.new }` &lt;br/&gt;
-with
-`animals = ids.map{ |id| GuaranteedAnimal.find(id) }`
-
-&gt; If you can take this home and use it, it will improve your code.
-
-
-## Composition over inheritance
-
-Here we need some code to show.
-Sorry folks ):
 </code></pre>
+<p>…because we replace</p>
+<p><code>animals = ids.map{ |id| Animal.find(id) || MissingAnimal.new }</code></p>
+<p>with</p>
+<p><code>animals = ids.map{ |id| GuaranteedAnimal.find(id) }</code></p>
+<blockquote>
+<p>If you can take this home and use it, it will improve your code.</p>
+</blockquote>
+<h2>Composition over inheritance</h2>
+<p>Here we need some code to show.
+Sorry folks ):</p>
 </div>
 </body>
 </html>

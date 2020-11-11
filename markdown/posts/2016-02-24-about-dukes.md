@@ -1,5 +1,5 @@
 ---
-title: [useless] About dukes, marquis...
+title: [etymology] About dukes, marquis...
 slug: use
 date_published: 2016-02-24T20:39:06.000Z
 date_updated: 2017-05-02T23:04:28.000Z
@@ -8,11 +8,13 @@ tags: history
 
 > What is the difference between a **duke**, an **earl**, a **lord**, a **marquis**, a **baron** and a **count**?
 
-“__D__o __M__en __E__ver __V__isit __B__oston?”
+> “**D**o **M**en **E**ver **V**isit **B**oston?”
 
-###### Duke > Marquis > Earl > Viscount > Baron.
+#### Duke > Marquis > Earl > Viscount > Baron.
 
----
+
+![Count](../images/count.jpg)
+
 
 ### Duke
 
@@ -38,4 +40,4 @@ Is the bottom of the totem pole. But these are all **barons**, to hear some peop
 
 ---
 
-    Expect all of this to be wrong: things can switch up on you every time you cross into a new country or a new century.
+Beware: things can switch up on you every time you cross into a new country or a new century.

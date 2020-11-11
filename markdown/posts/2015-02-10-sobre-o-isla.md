@@ -1,5 +1,5 @@
 ---
-title: [book] Alá Alá Alá
+title: [books] Alá Alá Alá
 slug: sobre-o-isla
 date_published: 2015-02-10T02:05:28.000Z
 date_updated: 2017-05-02T22:50:24.000Z
@@ -7,7 +7,7 @@ tags: books, history, religion
 ---
 
     Sobre o Islã (Ali Kamel, 2005)
-    
+
 
 ## Abrão
 
