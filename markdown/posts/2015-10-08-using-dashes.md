@@ -21,7 +21,7 @@ Use **EM dashes** to introduce speakers in narrative dialogue.
 
 ### “Quotes”
 
-Always **‘use’** the **“curly”** ones, unless you know what **"you"** are **'doing'**.
+Always `‘use’` the `“curly”` ones, unless you know what `"you"` are `'doing'`.
 
 
 ![Dashes](../images/hyphens.jpg)
@@ -31,14 +31,12 @@ Always **‘use’** the **“curly”** ones, unless you know what **"you"** ar
 
 Using the number pad
 
-- **en dash**: `Alt`+`0150`
-- **em dash**: `Alt`+`0151`
-- **single quotes**: `Alt` + (`0145` | `146`)
-- **double quotes**: `Alt` + (`0147` | `148`)
+- **en dash**: `Alt` + `0150`
+- **em dash**: `Alt` + `0151`
+- **single quotes**: `Alt` + [`0145` | `146`]
+- **double quotes**: `Alt` + [`0147` | `148`]
 
 ##### Mac OSX
-
-Very simple
 
 - **en dash**: `option` + `-`
 - **em dash**: `option` + `Shift` + `-`
@@ -55,8 +53,8 @@ Using Unicode keycode
 
 With `Compose` key
 
-- **en dash**: `Compose``-``-``.`
-- **em dash**: `Compose``-``-``-`
+- **en dash**: `Compose` `-` `-` `.`
+- **em dash**: `Compose` `-` `-` `-`
 
 ---
 

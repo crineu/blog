@@ -1,9 +1,9 @@
 ---
-title: Ruby Blocks & Lambdas
+title: [coding] Ruby Blocks & Lambdas
 slug: ruby-blocks-lambdas
 date_published: 2015-04-15T20:44:51.000Z
 date_updated: 2017-05-02T22:55:42.000Z
-tags: tips, ruby
+tags: ruby
 ---
 
 ### Quick Review
@@ -21,11 +21,12 @@ tags: tips, ruby
 
 Think of a *proc* as a saved block.
 
-    multiples_of_3 = Proc.new do |n|
-      n % 3 == 0
-    end
-    (1..100).to_a.select(&multiples_of_3)
-
+```ruby
+multiples_of_3 = Proc.new do |n|
+    n % 3 == 0
+end
+(1..100).to_a.select(&multiples_of_3)
+```
 
 #### Why Procs?
 
@@ -36,19 +37,21 @@ Why bother saving our blocks as procs? There are two main advantages:
 
 Unlike blocks, we can call procs directly by using Ruby’s `.call` method.
 
-    test = Proc.new { # does something }
-    test.call
-    # does that something!
-
+```ruby
+test = Proc.new { # does something }
+test.call
+# does that something!
+```
 
 #### Symbols, Meet Procs
 
 Now that you’re learning some of the more complex parts of the Ruby language, you can combine them to work some truly arcane magicks. For instance, remember when we told you that you could pass a Ruby method name around with a symbol? Well, you can also convert symbols to procs using that handy little `&`.
 
-    strings = ["1", "2", "3"]
-    nums = strings.map(&:to_i)
-    # >>> [1, 2, 3]
-
+```ruby
+strings = ["1", "2", "3"]
+nums = strings.map(&:to_i)
+# >>> [1, 2, 3]
+```
 
 By mapping `&:to_i` over every element of strings, we turned each string into an integer!
 
@@ -60,11 +63,12 @@ Like procs, **lambdas** are objects. The similarities don’t stop there: with t
 
 Lambdas are defined using the following syntax: `lambda { |param| block }`
 
-    strings = ["leonardo", "donatello", "raphael", "michaelangelo"]
-    symbolize = lambda { |x| x.to_sym }
-    symbols = strings.collect(&symbolize)
-    # >>> [:leonardo, :donatello, :raphael, :michaelangelo]
-
+```ruby
+strings = ["leonardo", "donatello", "raphael", "michaelangelo"]
+symbolize = lambda { |x| x.to_sym }
+symbols = strings.collect(&symbolize)
+# >>> [:leonardo, :donatello, :raphael, :michaelangelo]
+```
 
 #### Lambdas vs. Procs
 

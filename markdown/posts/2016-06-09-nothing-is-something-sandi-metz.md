@@ -1,5 +1,5 @@
 ---
-title: [coding] "Sandi Metz: Nothing is Something"
+title: [coding] Sandi Metz: Nothing is Something
 slug: nothing-is-something-sandi-metz
 date_published: 2016-06-09T23:06:48.000Z
 date_updated: 2017-05-02T23:06:19.000Z

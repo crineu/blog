@@ -2,7 +2,7 @@
 
 * Source files are in `/markdown`.
 * HTML files are in `/docs`.
-* Assets are in `/docs/assets`.
+* Images are in `/docs/images`.
 
 
 

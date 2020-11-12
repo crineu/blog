@@ -1,9 +1,9 @@
 ---
-title: Alexander Solzhenitsyn’s 1978 Harvard Address
+title: [essays] Alexander Solzhenitsyn’s 1978 Harvard Address
 slug: alexander-solzhenitsyns-1978-harvard-address
 date_published: 2017-12-17T18:42:00.000Z
 date_updated: 2018-05-21T19:50:22.000Z
-tags: quotes, history
+tags: essays, history
 ---
 
 In today’s Western society the inequality has been revealed [in] freedom for good deeds and freedom for evil deeds. A statesman who wants to achieve something important and highly constructive for his country has to move cautiously and even timidly. There are thousands of hasty and irresponsible critics around him; parliament and the press keep rebuffing him. As he moves ahead, he has to prove that each single step of his is well-founded and absolutely flawless. Actually, **an outstanding and particularly gifted person who has unusual and unexpected initiatives in mind hardly gets a chance to assert himself**. From the very beginning, dozens of traps will be set out for him.
