@@ -1,153 +1,261 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <title>Índice</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
-
-  <!-- CSS from macwright.com -->
   <style>
-    :root {
-      --mono-font: San Francisco Mono, Monaco, "Consolas", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
-      --sans-font: -apple-system, BlinkMacSystemFont, "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
+    html {
+      font-family:sans-serif;
+      color:#080808
     }
     body {
+      max-width:920px;
       margin:0 auto;
-      -webkit-font-smoothing:antialiased;
-      text-rendering:optimizeLegibility;
-      line-height:1.6;
-      font-size:1rem;
-      font-family:var(--sans-font)
+      padding:1rem
     }
-    .only-print { display:none }
-    a {
-      color:#000;
-      text-decoration-skip-ink:auto;
-      text-decoration:underline
+    h1 { margin-top:0; font-size:1.5rem; }
+    h1 small { display:block; font-size:1rem; }
+    .index { display:flex; flex-direction:row; }
+    .index .article-list { flex-grow:1; }
+    .index .article-list .article { margin-bottom:1rem; }
+    .index .article-list .date { display:block; color:#333; }
+    .index aside { width:40%; }
+    .index aside img {
+      display:block;
+      margin:0 auto 1rem;
+      border-radius:5px
     }
-    a:visited { color:#333 }
-    ul { margin:1rem 0 }
-    ul ul { margin:0 }
-    .small, small { font-size:14px }
-    body, h1 a { color:#111 }
-    h1, h2 { margin-bottom:.5rem; line-height:1.25; font-weight:600 }
-    h1 { font-size:32px; letter-spacing:.004em }
-    h2 {
-      font-size:1.5rem;
-      letter-spacing:.009em
-    }
-    .limiter {
-      max-width:640px;
-      padding-left:20px;
-      padding-right:20px;
-      margin-left:auto;
-      margin-right:auto
-    }
-    .pad2y {
-      padding-top:20px;
-      padding-bottom:20px
-    }
-    .writing {
-      display:grid;
-      grid-column-gap:5px;
-      grid-row-gap:5px;
-      grid-template-columns:1fr min-content
-    }
-    .writing a {
-      font-weight:500;
-      letter-spacing:-.015em
-    }
-    .writing>div {
-      white-space:nowrap;
-      overflow:hidden;
-      text-overflow:ellipsis
-    }
-    .writing time {
-      padding-right:.25em;
-      color:#333;
-      font-variant-numeric:tabular-nums;
-      letter-spacing:-.012em;
-      white-space:pre
-    }
-    @media screen and (max-width:640px) {
-      .limiter { width:auto }
-      .writing { grid-template-columns:1fr; grid-row-gap:0 }
-      .writing div { white-space:normal }
-      .writing time { padding-bottom:20px }
-    }
-    @media screen and (min-width:640px) {
-      .nu a { text-decoration:none }
-      .nu a:hover { text-decoration:underline }
-    }
-    @media screen and (max-width:1024px) {
-      .header-wrap { border-bottom:1px solid #000; padding-bottom:20px }
-    }
-    @media screen and (min-width:1025px) {
-      .header {
-        position:absolute;
-        top:40px;
-        right:50%;
-        margin-right:340px!important;
-        letter-spacing:-.009em
-      }
-      .content h1:first-child { margin-top:0 }
-    }
-    @media print {
-      .no-print { display:none }
-      .only-print { display:block }
-      body { margin:0 }
-      .limiter {
-        max-width:100%!important;
-        margin:0!important;
-        padding:0!important
+    .index aside dt { font-size:.9rem; }
+    .index aside dd { margin-left:0; }
+    .index aside dd:not(:last-child) { margin-bottom:.5rem; }
+    @media(max-width:640px) {
+      .index aside {
+        display:none
       }
     }
-    .m { color:#007f7f }
-    .s { color:#d01040 }
+    article {
+      margin:0 auto;
+      max-width:720px;
+      line-height:1.3
+    }
+    article img {
+      display:block;
+      margin:0 auto;
+      max-width:75%
+    }
+    @media(max-width:640px) {
+      article img {
+        max-width:calc(100% - 2rem)
+      }
+    }
+    article .comment {
+      margin:2rem auto 0;
+      max-width:80%;
+      color:#333
+    }
+    .footnotes { font-size:.85rem; }
+    footer {
+      margin-top:2rem;
+      text-align:center;
+      font-size:.8rem;
+      color:#333
+    }
+    .float-img {
+      float:right;
+      display:inline;
+      padding-left:1rem
+    }
+    @media(max-width:640px) {
+      .float-img {
+        display:block;
+        float:none;
+        padding-left:inherit
+      }
+    }
+    pre {
+      background-color:#eee;
+      padding:.25rem 1rem;
+      margin:0 -1rem;
+      max-width:100%;
+      overflow-x:auto
+    }
+    pre .cp { color:#800; }
+    pre .k { color:#008; }
+    pre .kt, pre .kd, pre .kc { color:#44f; }
+    pre .s { color:#484; font-style:italic; }
+    pre .cm, pre .c1 { color:#333; font-style:italic; }
+    pre .gi { color:green }
+    pre .gd { color:red }
+    pre .gu { color:blue }
+    summary {
+      cursor:pointer;
+      background-color:#eee;
+      padding:.25rem 1rem;
+      margin:0 -1rem;
+    }
+    details[open] {
+      border-bottom:1rem solid #eee;
+      margin:0 -1rem 1rem;
+      padding:0 1rem
+    }
+    .text-center { text-align:center }
+    blockquote {
+      border-left:5px solid #bbb;
+      background-color:#eee;
+      padding:1px 1rem;
+      margin-left:calc(-1rem - 5px);
+      margin-right:-1rem
+    }
+    ul li:not(:last-child) { margin-bottom:1rem }
   </style>
-
 </head>
-
-<body> 
-	<div class="pad2y limiter content writing nu"> 
-
-		 <div><a href="2020/2020-01-13-a-manifesto-for-small-teams-doing-important-work.html">[quotes] A manifesto for small teams doing important work</a></div> <time> 2020-01-13 </time>
-		 <div><a href="2018/2018-11-14-about-religion.html">[quotes] About religion</a></div> <time> 2018-11-14 </time>
-		 <div><a href="2018/2018-11-05-he-replication-crisis.html">[quotes] The replication crisis</a></div> <time> 2018-11-05 </time>
-		 <div><a href="2018/2018-11-05-books-that-stab-us.html">[quotes] Books that stab us</a></div> <time> 2018-11-05 </time>
-		 <div><a href="2018/2018-07-11-archeofuturism.html">[book] Arcaico Futurismo</a></div> <time> 2018-07-11 </time>
-		 <div><a href="2018/2018-05-21-oop-must-end.html">[essays] OOP must end</a></div> <time> 2018-05-21 </time>
-		 <div><a href="2017/2017-12-17-alexander-solzhenitsyns-1978-harvard-address.html">[essays] Alexander Solzhenitsyn’s 1978 Harvard Address</a></div> <time> 2017-12-17 </time>
-		 <div><a href="2017/2017-05-31-james-kalb-about-feminism.html">[quotes] James Kalb on feminism</a></div> <time> 2017-05-31 </time>
-		 <div><a href="2017/2017-05-02-isaiah-berlin-on-joseph-de-maistre-and-irrationality.html">[quotes] Isaiah Berlin on Joseph de Maistre and irrationality</a></div> <time> 2017-05-02 </time>
-		 <div><a href="2017/2017-03-16-book-contra-um-mundo-melhor.html">[book] Contra um mundo “melhor”</a></div> <time> 2017-03-16 </time>
-		 <div><a href="2016/2016-10-21-how-to-read-a-book.html">[tips] How to read a Book</a></div> <time> 2016-10-21 </time>
-		 <div><a href="2016/2016-10-04-drive.html">[book] Drive - What motivates us</a></div> <time> 2016-10-04 </time>
-		 <div><a href="2016/2016-07-17-book-o-gpi-da-filosofia.html">[book] O GPI da Filosofia</a></div> <time> 2016-07-17 </time>
-		 <div><a href="2016/2016-06-09-nothing-is-something-sandi-metz.html">[coding] "Sandi Metz</a></div> <time> 2016-06-09 </time>
-		 <div><a href="2016/2016-05-15-the-gell-mann-amnesia.html">[tips] The Gell-Mann Amnesia</a></div> <time> 2016-05-15 </time>
-		 <div><a href="2016/2016-05-03-book-our-culture-or-whats-left-of-it.html">[book] Our Culture, or What's Left of It</a></div> <time> 2016-05-03 </time>
-		 <div><a href="2016/2016-03-13-o-titulo.html">[quotes] O título</a></div> <time> 2016-03-13 </time>
-		 <div><a href="2016/2016-03-07-book-deus-um-delirio.html">[book] Deus, um Delírio</a></div> <time> 2016-03-07 </time>
-		 <div><a href="2016/2016-02-24-about-dukes.html">[etymology] About dukes, marquis...</a></div> <time> 2016-02-24 </time>
-		 <div><a href="2015/2015-10-08-using-dashes.html">[tips] Using Dashes and Quotes</a></div> <time> 2015-10-08 </time>
-		 <div><a href="2015/2015-09-24-crimes-contra-a-honra.html">Crimes contra a honra</a></div> <time> 2015-09-24 </time>
-		 <div><a href="2015/2015-09-03-greek-and-roman-mithology.html">[mooc] Greek and Roman Mithology</a></div> <time> 2015-09-03 </time>
-		 <div><a href="2015/2015-06-18-at-conversations.html">[tips] At conversations</a></div> <time> 2015-06-18 </time>
-		 <div><a href="2015/2015-05-15-the-dictators-learning-curve.html">[quotes] The dictator’s Learning Curve</a></div> <time> 2015-05-15 </time>
-		 <div><a href="2015/2015-04-25-the-fountainhead-2.html">[books] The Fountainhead (2)</a></div> <time> 2015-04-25 </time>
-		 <div><a href="2015/2015-04-23-the-fountainhead.html">[book] The Fountainhead 1</a></div> <time> 2015-04-23 </time>
-		 <div><a href="2015/2015-04-15-ruby-blocks-lambdas.html">[coding] Ruby Blocks & Lambdas</a></div> <time> 2015-04-15 </time>
-		 <div><a href="2015/2015-03-06-como-comprar-um-carro.html">Como comprar um carro</a></div> <time> 2015-03-06 </time>
-		 <div><a href="2015/2015-03-05-steve-yegge-resume.html">[book] Steve Yegge resume</a></div> <time> 2015-03-05 </time>
-		 <div><a href="2015/2015-03-03-peace-and-the-borgias.html">[quotes] Peace and the Borgias</a></div> <time> 2015-03-03 </time>
-		 <div><a href="2015/2015-02-18-david-x-goliath-misunderstanting.html">An underdog story</a></div> <time> 2015-02-18 </time>
-		 <div><a href="2015/2015-02-10-sobre-o-isla.html">[books] Alá Alá Alá</a></div> <time> 2015-02-10 </time>
-		 <div><a href="2015/2015-01-22-entinema.html">[etymology] Entinema</a></div> <time> 2015-01-22 </time>
-		 <div><a href="2015/2015-01-22-bad-samaritans.html">[books] Bad Samaritans</a></div> <time> 2015-01-22 </time>
-		 <div><a href="2015/2015-01-20-why_oh_why.html">[quotes] Why I write</a></div> <time> 2015-01-20 </time>
-
- 	</div> 
-</body> 
+<body>
+  <main class="index">
+	  <section class="article-list">
+	    <h1>Meine blog</h1>
+  <div class="article">
+    <span class="date">2020-01-13</span>
+    <a href="2020/2020-01-13-a-manifesto-for-small-teams-doing-important-work.html">[quotes] A manifesto for small teams doing important work</a>
+  </div>
+  <div class="article">
+    <span class="date">2018-11-14</span>
+    <a href="2018/2018-11-14-about-religion.html">[quotes] About religion</a>
+  </div>
+  <div class="article">
+    <span class="date">2018-11-05</span>
+    <a href="2018/2018-11-05-he-replication-crisis.html">[quotes] The replication crisis</a>
+  </div>
+  <div class="article">
+    <span class="date">2018-11-05</span>
+    <a href="2018/2018-11-05-books-that-stab-us.html">[quotes] Books that stab us</a>
+  </div>
+  <div class="article">
+    <span class="date">2018-07-11</span>
+    <a href="2018/2018-07-11-archeofuturism.html">[book] Arcaico Futurismo</a>
+  </div>
+  <div class="article">
+    <span class="date">2018-05-21</span>
+    <a href="2018/2018-05-21-oop-must-end.html">[essays] OOP must end</a>
+  </div>
+  <div class="article">
+    <span class="date">2017-12-17</span>
+    <a href="2017/2017-12-17-alexander-solzhenitsyns-1978-harvard-address.html">[essays] Alexander Solzhenitsyn’s 1978 Harvard Address</a>
+  </div>
+  <div class="article">
+    <span class="date">2017-05-31</span>
+    <a href="2017/2017-05-31-james-kalb-about-feminism.html">[quotes] James Kalb on feminism</a>
+  </div>
+  <div class="article">
+    <span class="date">2017-05-02</span>
+    <a href="2017/2017-05-02-isaiah-berlin-on-joseph-de-maistre-and-irrationality.html">[quotes] Isaiah Berlin on Joseph de Maistre and irrationality</a>
+  </div>
+  <div class="article">
+    <span class="date">2017-03-16</span>
+    <a href="2017/2017-03-16-book-contra-um-mundo-melhor.html">[book] Contra um mundo “melhor”</a>
+  </div>
+  <div class="article">
+    <span class="date">2016-10-21</span>
+    <a href="2016/2016-10-21-how-to-read-a-book.html">[tips] How to read a Book</a>
+  </div>
+  <div class="article">
+    <span class="date">2016-10-04</span>
+    <a href="2016/2016-10-04-drive.html">[book] Drive - What motivates us</a>
+  </div>
+  <div class="article">
+    <span class="date">2016-07-17</span>
+    <a href="2016/2016-07-17-book-o-gpi-da-filosofia.html">[book] O GPI da Filosofia</a>
+  </div>
+  <div class="article">
+    <span class="date">2016-06-09</span>
+    <a href="2016/2016-06-09-nothing-is-something-sandi-metz.html">[coding] Sandi Metz</a>
+  </div>
+  <div class="article">
+    <span class="date">2016-05-15</span>
+    <a href="2016/2016-05-15-the-gell-mann-amnesia.html">[tips] The Gell-Mann Amnesia</a>
+  </div>
+  <div class="article">
+    <span class="date">2016-05-03</span>
+    <a href="2016/2016-05-03-book-our-culture-or-whats-left-of-it.html">[book] Our Culture, or What's Left of It</a>
+  </div>
+  <div class="article">
+    <span class="date">2016-03-13</span>
+    <a href="2016/2016-03-13-o-titulo.html">[quotes] O título</a>
+  </div>
+  <div class="article">
+    <span class="date">2016-03-07</span>
+    <a href="2016/2016-03-07-book-deus-um-delirio.html">[book] Deus, um Delírio</a>
+  </div>
+  <div class="article">
+    <span class="date">2016-02-24</span>
+    <a href="2016/2016-02-24-about-dukes.html">[etymology] About dukes, marquis...</a>
+  </div>
+  <div class="article">
+    <span class="date">2015-10-08</span>
+    <a href="2015/2015-10-08-using-dashes.html">[tips] Using Dashes and Quotes</a>
+  </div>
+  <div class="article">
+    <span class="date">2015-09-24</span>
+    <a href="2015/2015-09-24-crimes-contra-a-honra.html">Crimes contra a honra</a>
+  </div>
+  <div class="article">
+    <span class="date">2015-09-03</span>
+    <a href="2015/2015-09-03-greek-and-roman-mithology.html">[mooc] Greek and Roman Mithology</a>
+  </div>
+  <div class="article">
+    <span class="date">2015-06-18</span>
+    <a href="2015/2015-06-18-at-conversations.html">[tips] At conversations</a>
+  </div>
+  <div class="article">
+    <span class="date">2015-05-15</span>
+    <a href="2015/2015-05-15-the-dictators-learning-curve.html">[quotes] The dictator’s Learning Curve</a>
+  </div>
+  <div class="article">
+    <span class="date">2015-04-25</span>
+    <a href="2015/2015-04-25-the-fountainhead-2.html">[books] The Fountainhead (2)</a>
+  </div>
+  <div class="article">
+    <span class="date">2015-04-23</span>
+    <a href="2015/2015-04-23-the-fountainhead.html">[book] The Fountainhead 1</a>
+  </div>
+  <div class="article">
+    <span class="date">2015-04-15</span>
+    <a href="2015/2015-04-15-ruby-blocks-lambdas.html">[coding] Ruby Blocks & Lambdas</a>
+  </div>
+  <div class="article">
+    <span class="date">2015-03-06</span>
+    <a href="2015/2015-03-06-como-comprar-um-carro.html">Como comprar um carro</a>
+  </div>
+  <div class="article">
+    <span class="date">2015-03-05</span>
+    <a href="2015/2015-03-05-steve-yegge-resume.html">[book] Steve Yegge resume</a>
+  </div>
+  <div class="article">
+    <span class="date">2015-03-03</span>
+    <a href="2015/2015-03-03-peace-and-the-borgias.html">[quotes] Peace and the Borgias</a>
+  </div>
+  <div class="article">
+    <span class="date">2015-02-18</span>
+    <a href="2015/2015-02-18-david-x-goliath-misunderstanting.html">An underdog story</a>
+  </div>
+  <div class="article">
+    <span class="date">2015-02-10</span>
+    <a href="2015/2015-02-10-sobre-o-isla.html">[books] Alá Alá Alá</a>
+  </div>
+  <div class="article">
+    <span class="date">2015-01-22</span>
+    <a href="2015/2015-01-22-entinema.html">[etymology] Entinema</a>
+  </div>
+  <div class="article">
+    <span class="date">2015-01-22</span>
+    <a href="2015/2015-01-22-bad-samaritans.html">[books] Bad Samaritans</a>
+  </div>
+  <div class="article">
+    <span class="date">2015-01-20</span>
+    <a href="2015/2015-01-20-why_oh_why.html">[quotes] Why I write</a>
+  </div>
+    </section>
+  </main>
+</body>
 </html>
