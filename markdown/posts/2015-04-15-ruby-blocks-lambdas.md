@@ -1,5 +1,5 @@
 ---
-title: [coding] Ruby Blocks & Lambdas
+title: [coding] Ruby Blocks and Lambdas
 slug: ruby-blocks-lambdas
 date_published: 2015-04-15T20:44:51.000Z
 date_updated: 2017-05-02T22:55:42.000Z

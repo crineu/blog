@@ -15,11 +15,11 @@ Viajou com sua mulher Sarai para Canaã. Dez anos após, Sarai permitiu-lhe gera
 
 Treze anos mais tarde, Deus renomeou Abrão para **Abraão** e Sarai para **Sara**, e ambos, do alto de seus 99 e 90 anos, tiveram **Isaac**.
 
-##### Aliança
+### Aliança
 
 O sinal da aliança de Deus com Abraão foi a circuncisão, ao oitavo dia do nascimento. Os cristãos interromperam o costume após sua abolição no Concílio de Jerusalém - em 49 d.C. Os muçulmanos perpetuam o costume, embora não haja menção alguma no alcorão.
 
-###### Expulsão
+### Expulsão
 
 Segundo o Gênesis, Sara mandou e Abraão expulsou Agar e Ismael de casa.
 
@@ -49,7 +49,7 @@ Nascido ali por 570, em Meca, Maomé é filho de Abdulah bin Abdu L’Muttalib e
 
 Depois dos 40, Maomé começou a converter o pessoal. Os primeiros foram Khadija, Ali e Zaid, um ex-escravo. Fora da família, **Abu Bacre** foi o primeiro. Sua mulher morreu, e Maomé casou outras dez vezes. Perto da morte, escreveu o tal do livro lá.
 
-##### Cinco pilares do Islamismo
+### Cinco pilares do Islamismo
 
 - *shahãdah*: acreditar em um só Deus e em Maomé como último profeta;
 - *salat*: orar cinco vezes por dia voltado para Meca;
@@ -57,13 +57,13 @@ Depois dos 40, Maomé começou a converter o pessoal. Os primeiros foram Khadija
 - *saum* ou *siyam*: jejuar durante o mês do Ramadã, do nascer do dia ao cair da noite;
 - *haji*: fazer a peregrinação a Meca pelo menos uma vez na vida
 
-##### Sucessão do profeta
+### Sucessão do profeta
 
 Segundo os *Sunitas*, Abu Bacre e Omar são fiéis companheiros e Ayishah a esposa amada e devotada.
 
 Segundo os *Xiitas*, os três são traidores pérfidos, Ayishah uma amaldiçoada e Abu Bacre um praga. Ali é o bem-amado do profeta.
 
-##### Os 4 califas
+### Os 4 califas
 
 1. *Abu Bacre*: governou por 2 anos; morreu de causas naturais, provavelmente envenenado;
 2. *Omar*: governou por 10 anos e foi assassinado pelo seu escravo Abu Lu’lu’a;
@@ -102,7 +102,7 @@ Em 1950 o grupo recebeu o apoio do coronel *Gamal Abd al-Nasser*, que também te
 
 Depois de al-Banna ser assassinado, surgiu *Qutub*, o maluco que fez estágio na América e odiou. Adentrou a Irmandade em 1951, e virou o principal teórico. Publicou *Sinalizações na Estrada*, considerada a bíblia do terror islâmico. Foi julgado e enforcado em 1966
 
-##### Grande apoio
+### Grande apoio
 
 A Arábia viu na Irmandade apenas ultraconservadores, e os apoiou. Além disso, eles foram apoiados contra os soviéticos, no Afeganistão. Mas já em 1965 Qutub recusava ambos os lados:
 
