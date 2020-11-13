@@ -1,15 +1,14 @@
 #!/bin/bash
-COMMON_HEADER="docs/head.html"
+HEADER_FILE="docs/head.html"
 INDEX_FILE="docs/index.html"
 
 
 # ----------------------------------------------
 # Primeira parte do index.html
 # ----------------------------------------------
-echo "Criando índice em ${INDEX_FILE}"
-HEADER=$(cat "${COMMON_HEADER}" | sed -e "s/__TITLE__/Índice/")
+HEADER=$(cat "${HEADER_FILE}" | sed -e "s/__TITLE__/Índice/")
 
-cat <<_INICIO_INDEX_ > "${INDEX_FILE}"
+INDEX_BUFFER=$(cat <<_INICIO_INDEX_
 <!DOCTYPE html>
 <html>
 ${HEADER}
@@ -18,6 +17,7 @@ ${HEADER}
 	  <section class="article-list">
 	    <h1>Meine blog</h1>
 _INICIO_INDEX_
+)
 
 
 # ----------------------------------------------
@@ -37,7 +37,7 @@ do
   EXCERPT=$(echo "${MD_META}" | awk 'BEGIN{FS=": "} /excerpt/{print $2}')
   DATE=$(echo    "${MD_META}" | awk '/date_published/{print $2}' | cut -d'T' -f1)  # 2015-02-18T20:58:49.000Z
   YEAR=$(echo    "${DATE}"    | cut -d'-' -f1)                                     # 2015-02-18
-  HEADER=$(cat "${COMMON_HEADER}" | sed -e "s/__TITLE__/${TITLE}/")
+  HEADER=$(cat "${HEADER_FILE}" | sed -e "s/__TITLE__/${TITLE}/")
   ARTICLE=$(cmark --validate-utf8 --smart --to html <(echo "${MD_CONTENT}"))
 
   HTML_FILE=$(echo "${MD_FILE}" | sed -e "s/^markdown\/posts/docs\/${YEAR}/" | sed -e "s/md$/html/")
@@ -58,14 +58,17 @@ ${HEADER}
 </html>
 _POST_
 
+
   # Cria referência em index.html
   REL_LINK=$(echo "${HTML_FILE}" | sed -e "s/^docs\///")
-  cat <<_POST_LINK_ >> "${INDEX_FILE}"
+  INDEX_BUFFER+=$(cat <<_POST_LINK_
+
   <div class="article">
     <span class="date">${DATE}</span>
     <a href="${REL_LINK}">${TITLE}</a>
   </div>
 _POST_LINK_
+)
 
 done
 # ----------------------------------------------
@@ -76,9 +79,13 @@ done
 # ----------------------------------------------
 # Parte final do index.html
 # ----------------------------------------------
-cat <<_FIM_INDEX_ >> "${INDEX_FILE}"
+INDEX_BUFFER+=$(cat <<_FIM_INDEX_
     </section>
   </main>
 </body>
 </html>
 _FIM_INDEX_
+)
+
+echo "Criando índice em ${INDEX_FILE}"
+echo "${INDEX_BUFFER}" > "${INDEX_FILE}"
