@@ -18,3 +18,9 @@ SuperFreakonomics (Levitt, Steven)
 
 But he had a chance to observe a similar phenomenon firsthand when a lot of Washington doctors left town at the same time for a medical convention. The result: an across-the-board drop in mortality. “When there are too many physician-patient interactions, the amplitude gets turned up on everything,” he says. “More people with nonfatal problems are taking more medications and having more procedures, many of which are not really helpful and a few of which are harmful, while the people with really fatal illnesses are rarely cured and ultimately die anyway.” So it may be that going to the hospital slightly increases your odds of surviving if you’ve got a serious problem but increases your odds of dying if you don’t.
 ==========
+Antifragile: Things That Gain From Disorder (Taleb, Nassim Nicholas)
+- Your Highlight on page 25 | Location 4201-4203 | Added on Wednesday, August 12, 2020 11:47:43 PM
+
+It has been difficult for people to understand that, historically, skepticism has been mostly skepticism of expert knowledge rather than skepticism about abstract entities like God, and that all the great skeptics have been largely either religious or, at least, pro-religion (that is, in favor of others being religious).
+==========
+
