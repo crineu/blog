@@ -6,21 +6,15 @@
 
 
 
-#### From Ghost to Markdown
+### Parse Kindle - ./split_awk.sh my_clippings.txt
 
-1 - npm install ghost-to-md
-2 - node_modules/.bin/ghost-to-md backup.ghost.json
-
-
-### Split Kindle "my_clippings.txt"
-
-* copy "My Clippings.txt" from Kindle to "./my_clippings.txt"
-* run `./split_awk.sh my_clippings.txt"
+* copy `My Clippings.txt` from Kindle to `./my_clippings.txt`
+* run `./split_awk.sh my_clippings.txt`
 * `BK_*` files will be created
 * move them to `a_publicar` or `publicados` accordingly
 
 
-#### convert_md_to_html.sh: **cmark**
+### ./convert_md_to_html.sh
 
 * sh: for each file in `/markdown`
 * create the `.html` file in the same location in `/docs`
@@ -31,6 +25,12 @@
 * generate `index.html` with correct links
 
 
-#### Images
+### Images
 
 All of them at `/docs/images`
+
+
+#### Migrate from Ghost to Markdown
+
+1 - npm install ghost-to-md
+2 - `node_modules/.bin/ghost-to-md backup.ghost.json`
