@@ -1,5 +1,5 @@
 #!/bin/bash
-HEADER_FILE="docs/head.html"
+HEADER_FILE="head_template.html"
 INDEX_FILE="docs/index.html"
 
 
