@@ -1,17 +1,20 @@
 #!/bin/bash
-HEADER_FILE="head_template.html"
 INDEX_FILE="docs/index.html"
-
+TEMPLATE_HEADER="head_template.html"
 
 # ----------------------------------------------
 # Primeira parte do index.html
 # ----------------------------------------------
-HEADER=$(sed -e "s/__TITLE__/Índice/" < "${HEADER_FILE}")
-
 INDEX_BUFFER=$(cat <<_INICIO_INDEX_
 <!DOCTYPE html>
 <html>
-${HEADER}
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Índice</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link href="styles/main.css" rel="stylesheet">
+</head>
 <body>
   <main class="index">
 	  <section class="article-list">
@@ -37,7 +40,7 @@ do
   EXCERPT=$(echo "${MD_META}" | awk 'BEGIN{FS=": "} /excerpt/{print $2}')
   DATE=$(echo    "${MD_META}" | awk '/date_published/{print $2}' | cut -d'T' -f1)  # 2015-02-18T20:58:49.000Z
   YEAR=$(echo    "${DATE}"    | cut -d'-' -f1)                                     # 2015-02-18
-  HEADER=$(sed -e "s/__TITLE__/${TITLE}/" < "${HEADER_FILE}")
+  HEADER=$(sed -e "s/__TITLE__/${TITLE}/" < "${TEMPLATE_HEADER}")
   ARTICLE=$(cmark --validate-utf8 --smart --to html <(echo "${MD_CONTENT}"))
 
   HTML_FILE=$(echo "${MD_FILE}" | sed -e "s/^markdown\/posts/docs\/${YEAR}/" | sed -e "s/md$/html/")
