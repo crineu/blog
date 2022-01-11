@@ -14,8 +14,6 @@ Nothing I can do as an author that makes it to the front page of Corriere della 
 
 Take this easy-to-use heuristic (which is, to repeat the definition, a simple compressed rule of thumb) to detect the independence and robustness of someone’s reputation. With few exceptions, those who dress outrageously are robust or even antifragile in reputation; those clean-shaven types who dress in suits and ties are fragile to information about them.
 
-“aging” is a combination of maladjustment and senescence,
-
 In the complex world, the notion of “cause” itself is suspect; it is either nearly impossible to detect or not really defined—another reason to ignore newspapers, with their constant supply of causes for things.
 
 Not only are we averse to stressors, and don’t understand them, but we are committing crimes against life, the living, science, and wisdom, for the sake of eliminating volatility and variation.
@@ -30,15 +28,9 @@ Good systems such as airlines are set up to have small errors, independent from 
 
 And someone who has made plenty of errors—though never the same error more than once—is more reliable than someone who has never made any.
 
-number of layers. For the economy to be
-
-For the economy to be antifragile and undergo what is called evolution, every single individual business must necessarily be fragile, exposed to breaking—evolution needs organisms (or their genes) to die when supplanted by others, in order to achieve improvement, or to avoid reproduction when they are not as fit as someone else.
-
 For the economy to be antifragile and undergo what is called evolution, every single individual business must necessarily be fragile, exposed to breaking—evolution needs organisms (or their genes) to die when supplanted by others, in order to achieve improvement, or to avoid reproduction when they are not as fit as someone else. Accordingly, the antifragility of the higher level may require the fragility—and sacrifice—of the lower one.
 
 Likewise, we humans may have to be self-centered at the expense of other species, at the risk of ecological fragility, if it insures our survival. Our interests—as a human race—prevail over those of nature; and we can tolerate some inefficiency, some fragility, in order to protect individuals, although sacrificing nature too much may eventually hurt ourselves. We saw the trade-off between the interests of the collective and those of the individual. An economy cannot survive without breaking individual eggs; protection is harmful, and constraining the forces of evolution to benefit individuals does not seem required. But we can shield individuals from starvation, provide some social protection. And give them respect.
-
-manner)—likewise, there is no such thing as a failed entrepreneur or failed scientific researcher, any more than there is a successful babbler, philosophaster, commentator, consultant, lobbyist, or business school
 
 manner)—likewise, there is no such thing as a failed entrepreneur or failed scientific researcher, any more than there is a successful babbler, philosophaster, commentator, consultant, lobbyist, or business school professor who does not take personal risks. (Sorry.)
 
@@ -47,8 +39,6 @@ We are fragilizing social and economic systems by denying them stressors and ran
 Nature loves small errors (without which genetic variations are impossible), humans don’t—hence when you rely on human judgment you are at the mercy of a mental bias that disfavors antifragility.
 
 Note another element of Switzerland: it is perhaps the most successful country in history, yet it has traditionally had a very low level of university education compared to the rest of the rich nations. Its system, even in banking during my days, was based on apprenticeship models, nearly vocational rather than the theoretical ones. In other words, on techne (crafts and know how), not episteme (book knowledge, know what).
-
-And here is something comforting about statelings
 
 Stefan Zweig, the Viennese Jewish novelist, then considered the most influential author in the world, expressed his pain in the poignant memoir The World of Yesterday. Vienna joined the league of multicultural cities such as Alexandria, Smyrna, Aleppo, Prague, Thessaloniki, Constantinople (now Istanbul), and Trieste, now squeezed into the Procrustean bed of the nation-state, with its citizens left in the grip of intergenerational nostalgia. Unable to handle the loss and integrate elsewhere, Zweig later committed suicide in Brazil.
 
@@ -62,8 +52,6 @@ If you want to accelerate someone’s death, give him a personal doctor. I don�
 
 Consider the iatrogenics of newspapers. They need to fill their pages every day with a set of news items—particularly those news items also dealt with by other newspapers. But to do things right, they ought to learn to keep silent in the absence of news of significance. Newspapers should be of two-line length on some days, two hundred pages on others—in proportion with the intensity of the signal. But of course they want to make money and need to sell us junk food. And junk food is iatrogenic.
 
-So we are living in a more and more fragile world, while thinking it is more and more understandable.
-
 So we are living in a more and more fragile world, while thinking it is more and more understandable. To conclude, the best way to mitigate interventionism is to ration the supply of information, as naturalistically as possible. This is hard to accept in the age of the Internet. It has been very hard for me to explain that the more data you get, the less you know what’s going on, and the more iatrogenics you will cause. People are still under the illusion that “science” means more data.
 
 it looks as if history is in the business of making it out of lemons; antifragility is necessarily how things move forward under the mother of all stressors, called time.
@@ -75,8 +63,6 @@ mentioned in the Prologue that randomness in the Black Swan domain is intractabl
 inconsequential. I mentioned in the Prologue that randomness in the Black Swan domain is intractable. I will repeat it till I get hoarse. The limit is mathematical, period, and there is no way around it on this planet. What is nonmeasurable and nonpredictable will remain nonmeasurable and nonpredictable, no matter how many PhDs with Russian and Indian names you put on the job—and no matter how much hate mail I get. There is, in the Black Swan zone, a limit to knowledge that can never be reached, no matter how sophisticated statistical and risk management science ever gets.
 
 I mentioned in the Prologue that randomness in the Black Swan domain is intractable. I will repeat it till I get hoarse. The limit is mathematical, period, and there is no way around it on this planet. What is nonmeasurable and nonpredictable will remain nonmeasurable and nonpredictable, no matter how many PhDs with Russian and Indian names you put on the job—and no matter how much hate mail I get. There is, in the Black Swan zone, a limit to knowledge that can never be reached, no matter how sophisticated statistical and risk management science ever gets.
-
-charitable organization, with the possible
 
 Nero could stand near the former World Trade Center site in downtown New York, across from the colossal buildings housing mostly banks and brokerage houses, with hundreds of people running around inside them, expending gigawatts of energy just moving and commuting from New Jersey, consuming millions of bagels with cream cheese, with insulin response inflaming their arteries, producing gigabytes of information just by talking and corresponding and writing articles. But noise it was: wasted effort, cacophony, unaesthetic behavior, increased entropy, production of energy that causes a local warming up of the New York area ecozone, and a large-scale delusion of this thing called “wealth” that was bound to evaporate somehow.
 
@@ -92,13 +78,9 @@ result largely from confirmation fallacies: in addition to the sad fact that his
 
 EPIPHENOMENA The Soviet-Harvard illusion (lecturing birds on flying and believing that the lecture is the cause of these wonderful skills) belongs to a class of causal illusions called epiphenomena. What are these illusions? When you spend time on the bridge of a ship or in the coxswain’s station with a large compass in front, you can easily develop the impression that the compass is directing the ship rather than merely reflecting its direction.
 
-Recall the quote by Seneca and Ovid to the effect that sophistication is born of need, and success of difficulties—in fact many such variations, sourced in medieval days (such as necessitas magistra in Erasmus), found their way into our daily vernaculars, as in “necessity is the mother of invention.” The best is, as usual, from the master aphorist Publilius Syrus: “poverty makes
-
 Recall the quote by Seneca and Ovid to the effect that sophistication is born of need, and success of difficulties—in fact many such variations, sourced in medieval days (such as necessitas magistra in Erasmus), found their way into our daily vernaculars, as in “necessity is the mother of invention.” The best is, as usual, from the master aphorist Publilius Syrus: “poverty makes experiences” (hominem experiri multa paupertas iubet).
 
 but I wonder why people don’t realize the simple truism, that is, the fooled by randomness effect: mistaking the merely associative for the causal, that is, if rich countries are educated, immediately inferring that education makes a country rich, without even checking. Epiphenomenon here again. (The error in reasoning is a bit from wishful thinking, because education is considered “good”;
-
-The difference between a narrative and practice—the important things that cannot be easily narrated—lies mainly in optionality, the missed optionality of things. The “right thing” here is typically an antifragile payoff. And my argument is that you don’t go to school to learn
 
 The difference between a narrative and practice—the important things that cannot be easily narrated—lies mainly in optionality, the missed optionality of things. The “right thing” here is typically an antifragile payoff. And my argument is that you don’t go to school to learn optionality, but the reverse: to become blind to it.
 
@@ -116,15 +98,9 @@ It is as if the mission of modernity was to squeeze every drop of variability an
 
 People who build their strength using these modern expensive gym machines can lift extremely large weights, show great numbers and develop impressive-looking muscles, but fail to lift a stone; they get completely hammered in a street fight by someone trained in more disorderly settings. Their strength is extremely domain-specific and their domain doesn’t exist outside of ludic—extremely organized—constructs. In fact their strength, as with overspecialized athletes, is the result of a deformity. I thought it was the same with people who were selected for trying to get high grades in a small number of subjects rather than follow their curiosity: try taking them slightly away from what they studied and watch their decomposition, loss of confidence, and denial.
 
-“What is not intelligible to me is not necessarily unintelligent” is perhaps the most potent sentence in all of Nietzsche’s century—and we used a version of it in the prologue, in the very definition of the fragilista who mistakes
-
-“What is not intelligible to me is not necessarily unintelligent” is perhaps the most potent sentence in all of Nietzsche’s century—and we used a version of it in the prologue, in the very definition of the fragilista who mistakes
-
 “What is not intelligible to me is not necessarily unintelligent” is perhaps the most potent sentence in all of Nietzsche’s century—and we used a version of it in the prologue, in the very definition of the fragilista who mistakes what he does not understand for nonsense.
 
 The anthropologist Claude Lévi-Strauss showed that nonliterate peoples had their own “science of the concrete,” a holistic way of thinking about their environment in terms of objects and their “secondary,” sensuous qualities which was not necessarily less coherent than many of our scientific approaches and, in many respects, can be as rich as and even richer than ours.
-
-Textbook “knowledge” misses a dimension, the hidden asymmetry of benefits—just like the notion of average. The need to focus on the payoff from your actions instead of studying the structure of the world (or understanding the “True” and the “False”) has been largely missed in intellectual history. Horribly missed. The payoff, what happens to you (the benefits or harm from it), is
 
 Textbook “knowledge” misses a dimension, the hidden asymmetry of benefits—just like the notion of average. The need to focus on the payoff from your actions instead of studying the structure of the world (or understanding the “True” and the “False”) has been largely missed in intellectual history. Horribly missed. The payoff, what happens to you (the benefits or harm from it), is always the most important thing, not the event itself.
 
@@ -144,15 +120,11 @@ The “apophatic” focuses on what cannot be said directly in words, from the G
 
 we know a lot more what is wrong than what is right, or, phrased according to the fragile/robust classification, negative knowledge (what is wrong, what does not work) is more robust to error than positive knowledge (what is right, what works). So knowledge grows by subtraction much more than by addition—given that what we know today might turn out to be wrong but what we know to be wrong cannot turn out to be right, at least not easily.
 
-knowledge is just “more robust.” Now, before starting
-
 a small number of homeless people cost the states a disproportionate share of the bills, which makes it obvious where to look for the savings. A small number of employees in a corporation cause the most problems, corrupt the general attitude—and vice versa—so getting rid of these is a great solution. A small number of customers generate a large share of the revenues.
 
 Convincing—and confident—disciplines, say, physics, tend to use little statistical backup, while political science and economics, which have never produced anything of note, are full of elaborate statistics and statistical “evidence” (and you know that once you remove the smoke, the evidence is not evidence).
 
 if you have more than one reason to do something (choose a doctor or veterinarian, hire a gardener or an employee, marry a person, go on a trip), just don’t do it. It does not mean that one reason is better than two, just that by invoking more than one reason you are trying to convince yourself to do something. Obvious decisions (robust to error) require no more than a single reason.
-
-Antifragility implies—contrary to initial instinct—that the old is superior
 
 Antifragility implies—contrary to initial instinct—that the old is superior to the new, and much more than you think.
 
@@ -160,25 +132,17 @@ And such treatment has continued in modern times: twentieth-century intellectual
 
 But the fragile should disappear, or be weakened. Now, what is fragile? The large, optimized, overreliant on technology, overreliant on the so-called scientific method instead of age-tested heuristics.
 
-Via negativa, of course (by removal of the unnatural): only resort to medical techniques when the health payoff is very large (say, saving a life) and visibly exceeds its potential harm, such as incontrovertibly needed surgery or lifesaving medicine (penicillin). It is the same as with government intervention.
-
 Via negativa, of course (by removal of the unnatural): only resort to medical techniques when the health payoff is very large (say, saving a life) and visibly exceeds its potential harm, such as incontrovertibly needed surgery or lifesaving medicine (penicillin). It is the same as with government intervention. This is squarely Thalesian, not Aristotelian (that is, decision making based on payoffs, not knowledge).
 
 medicine—what we call diseases of civilization result from the attempt by humans to make life comfortable for ourselves against our own interest, since the comfortable is what fragilizes.
 
 few wonder why, after hundreds of million of years of having our skins exposed to sun rays, we suddenly need so much protection from them—is it that our exposure is more harmful than before because of changes in the atmosphere, or populations living in an environment mismatching the pigmentation of their skin—or rather, that makers of sun protection products need to make some profits?
 
-Bologna of the Middle Ages. By contrast, in the past, letting
-
 If we live longer, it is thanks to medicine’s benefits in cases that are lethal, in which the condition is severe—hence low iatrogenics, as we saw, the convex cases. So it is a serious error to infer that if we live longer because of medicine, that all medical treatments make us live longer.
 
 As Ennius wrote, “The good is mostly in the absence of bad”; Nimium boni est, cui nihil est mali.
 
 We know we can cure many cases of diabetes by putting people on a very strict starvation-style diet, shocking their system—in fact the mechanism had to have been known heuristically for a long time since there are institutes and sanatoria for curative starvation in Siberia.
-
-Let us remember that we are not designed to be receiving foods from the delivery person. In nature, we had to expend some energy to eat. Lions hunt to eat, they don’t eat their meal then hunt for pleasure. Giving people food before they expend energy would certainly confuse their signaling process. And we have ample evidence that intermittently (and only intermittently) depriving organisms of food has been shown to engender
-
-Let us remember that we are not designed to be receiving foods from the delivery person. In nature, we had to expend some energy to eat. Lions hunt to eat, they don’t eat their meal then hunt for pleasure. Giving people food before they expend energy would certainly confuse their signaling process. And we have ample evidence that intermittently (and only intermittently) depriving organisms of food has been shown to engender beneficial effects on many functions—Valter Longo, for instance, noted that prisoners in concentration camps got less sick in the first phase of food restriction,
 
 Let us remember that we are not designed to be receiving foods from the delivery person. In nature, we had to expend some energy to eat. Lions hunt to eat, they don’t eat their meal then hunt for pleasure. Giving people food before they expend energy would certainly confuse their signaling process. And we have ample evidence that intermittently (and only intermittently) depriving organisms of food has been shown to engender beneficial effects on many functions—Valter Longo, for instance, noted that prisoners in concentration camps got less sick in the first phase of food restriction, then broke down later.
 
@@ -189,8 +153,6 @@ Never ask anyone for their opinion, forecast, or recommendation. Just ask them w
 The psychologist Gerd Gigerenzer has a simple heuristic. Never ask the doctor what you should do. Ask him what he would do if he were in your place. You would be surprised at the difference.
 
 On April 29, 711, the armies of the Arab commander Tarek crossed the Strait of Gibraltar from Morocco into Spain with a small army (the name Gibraltar is derived from the Arabic Jabal Tarek, meaning “mount of Tarek”). Upon landing, Tarek had his ships put to the fire. He then made a famous speech every schoolchild memorized during my school days that I translate loosely: “Behind you is the sea, before you, the enemy. You are vastly outnumbered. All you have is sword and courage.”
-
-Never listen to a leftist who does not give away his fortune or does not
 
 Never listen to a leftist who does not give away his fortune or does not live the exact lifestyle he wants others to follow. What the French call “the caviar left,” la gauche caviar, or what Anglo-Saxons call champagne socialists, are people who advocate socialism, sometimes even communism, or some political system with sumptuary limitations, while overtly leading a lavish lifestyle, often financed by inheritance—not realizing the contradiction that they want others to avoid just such a lifestyle.
 
@@ -206,31 +168,19 @@ Increasingly, data can only truly deliver via negativa–style knowledge—it ca
 
 understanding x, through convexity of f(x). The answer to the question “what do you do in a world you don’t understand?” is, simply, work on the undesirable states of f(x).
 
-understanding x, through convexity of f(x). The answer to the question “what do you do in a world you don’t understand?” is, simply, work on the undesirable states of f(x).
-
 The answer to the question “what do you do in a world you don’t understand?” is, simply, work on the undesirable states of f(x).
 
 This in a way is the argument I’ve used to show that small probabilities are incomputable, even if one has the right model—which we of course don’t.
 
-showed empirically using all economic data available that fat tails are both severe and intractable—hence all methods with “squares” don’t work with socioeconomic variables: regression, standard deviation, correlation, etc. (technically 80% of the Kurtosis in 10,000 pieces of data can come from one single observation, meaning all measures of fat tails are just sampling errors). This is a very strong via negativa statement: it means we can’t use covariance matrices—they are unreliable and uninformative. Actually just accepting fat tails would have led us to such result—no need for empiricism; I processed the data nevertheless. Now any honest scientific profession would say: “what do we do with such evidence?”—the economics and finance establishment just ignored it. A bunch of charlatans, by any scientific norm and ethical metric. Many “Nobels” (Engle, Merton, Scholes, Markowitz, Miller, Samuelson, Sharpe, and a few more) have their results grounded in such central assumptions, and all their works would evaporate otherwise. Charlatans (and fragilistas) do well in institutions. It is a matter of ethics; see
-
 showed empirically using all economic data available that fat tails are both severe and intractable—hence all methods with “squares” don’t work with socioeconomic variables: regression, standard deviation, correlation, etc.
 
 The great benefit of the Enlightenment has been to bring the individual to the fore, with his rights, his freedom, his independence, his “pursuit of happiness” (whatever that “happiness” means), and, most of all, his privacy. In spite of its denial of antifragility, the Enlightenment and the political systems that emerged from it freed us (somewhat) from the domination of society, the tribe, and the family that had prevailed throughout history. The unit in traditional cultures is the collective; and it could be perceived to be harmed by the behavior of an individual—the honor of the family is sullied when, say, a daughter becomes pregnant, or a member of the family engages in large-scale financial swindles and Ponzi schemes, or, worst, may even teach a college course in the charlatanic subject of financial economics.
-
-well trapped on the ground, where it is forced to traipse.
 
 Fluctuat nec mergitur (fluctuates, or floats, but does not sink) goes the Latin saying.
 
 My definition of modernity is humans’ large-scale domination of the environment, the systematic smoothing of the world’s jaggedness, and the stifling of volatility and stressors. Modernity corresponds to the systematic extraction of humans from their randomness-laden ecology—physical and social, even epistemological. Modernity is not just the postmedieval, postagrarian, and postfeudal historical period as defined in sociology textbooks. It is rather the spirit of an age marked by rationalization (naive rationalism), the idea that society is understandable, hence must be designed, by humans. With it was born statistical theory, hence the beastly bell curve. So was linear science. So was the notion of “efficiency”—or optimization.
 
 Modernity starts with the state monopoly on violence, and ends with the state’s monopoly on fiscal irresponsibility.
-
-owing to the inflexibility in the procurement
-
-today in America, so every town had the staples
-
-iatrogenics. Forecasting can be downright injurious
 
 Now, what is worse, because of modernity, the share of Extremistan is increasing. Winner-take-all effects are worsening: success for an author, a company, an idea, a musician, an athlete is planetary, or nothing. These worsen predictability since almost everything in socioeconomic life now is dominated by Black Swans. Our sophistication continuously puts us ahead of ourselves, creating things we are less and less capable of understanding.
 
@@ -243,12 +193,6 @@ The story of the wheel also illustrates the point of this chapter: both governme
 Medical researchers call such lag the “translational gap,” the time difference between formal discovery and first implementation, which, if anything, owing to excessive noise and academic interests, has been shown by Contopoulos-Ioannidis and her peers to be lengthening in modern times. The historian David Wooton relates a gap of two centuries between the discovery of germs and the acceptance of germs as a cause of disease, a delay of thirty years between the germ theory of putrefaction and the development of antisepsis, and a delay of sixty years between antisepsis and drug therapy.
 
 It has been difficult for people to understand that, historically, skepticism has been mostly skepticism of expert knowledge rather than skepticism about abstract entities like God, and that all the great skeptics have been largely either religious or, at least, pro-religion (that is, in favor of others being religious).
-
-inhibit research in biotech. The problem is that such
-
-Indeed, the most severe mistake made in life is to mistake the unintelligible for the unintelligent—something Nietzsche figured out.
-
-Indeed, the most severe mistake made in life is to mistake the unintelligible for the unintelligent—something Nietzsche figured out. In a way, it resembles the turkey problem, mistaking what we don’t see for the nonexistent, a sibling to mistaking absence
 
 Indeed, the most severe mistake made in life is to mistake the unintelligible for the unintelligent—something Nietzsche figured out. In a way, it resembles the turkey problem, mistaking what we don’t see for the nonexistent, a sibling to mistaking absence of evidence for evidence of absence.
 

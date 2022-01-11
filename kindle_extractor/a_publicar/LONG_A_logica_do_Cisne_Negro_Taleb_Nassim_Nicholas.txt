@@ -4,8 +4,6 @@ a não ser que você seja como o epônimo Funes do conto de Jorge Luis Borges, �
 
 o Mediocristão é onde devemos suportar a tirania do coletivo, do rotineiro, do óbvio e do previsto; o Extremistão é onde estamos sujeitos à tirania do singular, do acidental, do não visto e do imprevisto.
 
-O mesmo ocorreu com as amígdalas: a extração de amígdalas pode levar a uma incidência maior de câncer de garganta, mas durante décadas os médicos nunca suspeitaram que esse tecido “inútil” pudesse realmente ter uma utilidade que escapava à detecção. O mesmo com a fibra alimentar encontrada em frutas e vegetais: na década de 1960, médicos a consideraram inútil porque não viram qualquer evidência imediata de sua necessidade, e com isso criaram uma geração malnutrida.
-
 O mesmo ocorreu com as amígdalas: a extração de amígdalas pode levar a uma incidência maior de câncer de garganta, mas durante décadas os médicos nunca suspeitaram que esse tecido “inútil” pudesse realmente ter uma utilidade que escapava à detecção. O mesmo com a fibra alimentar encontrada em frutas e vegetais: na década de 1960, médicos a consideraram inútil porque não viram qualquer evidência imediata de sua necessidade, e com isso criaram uma geração malnutrida. Descobriu-se que as fibras atuam na diminuição do ritmo de absorção de açúcares no sangue e limpa o aparelho intestinal de células pré-cancerosas. Na verdade, a medicina causou muitos danos no decorrer da história por conta desse tipo simples de confusão dedutiva.
 
 Portanto, a mesma condição que nos faz simplificar nos força a pensar que o mundo é menos aleatório do que realmente é.
@@ -36,8 +34,6 @@ o evento, mais vagas são as probabilidades). Podemos ter uma ideia clara das co
 
 Por que o capitalismo (e não o socialismo) destruiu esses ogros? Em outras palavras, se forem deixadas em paz, as companhias tendem a ser engolidas.
 
-O capitalismo é, entre outras coisas, a revitalização do mundo graças à oportunidade de se ter sorte. A sorte é o grande equalizador, porque quase todos podem ser beneficiados por ela. Os governos socialistas protegiam seus monstros e, fazendo isso, matavam novatos
-
 O capitalismo é, entre outras coisas, a revitalização do mundo graças à oportunidade de se ter sorte. A sorte é o grande equalizador, porque quase todos podem ser beneficiados por ela. Os governos socialistas protegiam seus monstros e, fazendo isso, matavam novatos em potencial antes mesmo que nascessem.
 
 Lembre-se das discussões no Capítulo 14 sobre ligação preferencial e vantagem cumulativa. As duas teorias afirmam que vencer hoje faz com que seja mais provável que se vença no futuro. Portanto, as probabilidades dependem da história, e a primeira pressuposição que conduz à curva na forma de sino gaussiana fracassa na realidade. Nos jogos, obviamente, vitórias passadas não deveriam resultar em uma probabilidade aumentada de ganhos futuros — mas isso não acontece na vida real, motivo pelo qual me preocupo com o ensinamento de probabilidade através de jogos.
@@ -49,4 +45,3 @@ como praticante, meu pensamento é enraizado na crença de que não se pode part
 Usando o viés confirmatório, essas pessoas dirão a você que a religião foi horrível para a humanidade contando as mortes causadas pela Inquisição e por diversas guerras religiosas. Mas não mostrarão quantas pessoas foram mortas pelo nacionalismo, pela ciência social e pela teoria política durante o stalinismo ou a Guerra do Vietnã.
 
 Argumento do regresso estatístico (ou o problema da circularidade da estatística): Precisamos de dados para descobrir uma distribuição de probabilidades. Como sabemos se o que temos é suficiente? A partir da distribuição de probabilidade. Se ela for gaussiana, então alguns pontos de dados serão suficientes. Como sabemos se é gaussiana? Através dos dados.
-
