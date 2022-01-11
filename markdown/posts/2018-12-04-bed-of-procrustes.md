@@ -3,7 +3,7 @@ title: [book] Bed of Procrustes
 slug: bed-of-procrustes
 date_published: 2018-12-04T17:06:26.000Z
 date_updated: 2022-01-07T22:09:01.000Z
-tags: books
+tags: book
 ---
 
 > If something looks irrational – and has been so for a long time – odds are you have a wrong definition of rationality.

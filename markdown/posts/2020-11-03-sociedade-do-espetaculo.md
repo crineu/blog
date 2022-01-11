@@ -1,9 +1,9 @@
 ---
-title: [books] A Sociedade do Espetáculo
+title: [book] A Sociedade do Espetáculo
 slug: sociedade-do-espetáculo
 date_published: 2020-11-03T17:06:26.000Z
 date_updated: 2022-01-10T23:01:01.000Z
-tags: books
+tags: book
 ---
 
 > Os espectadores não encontram o que desejam; eles desejam o que encontram.

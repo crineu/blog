@@ -3,7 +3,7 @@ title: [book] Contra um mundo “melhor”
 slug: book-contra-um-mundo-melhor
 date_published: 2017-03-16T19:15:00.000Z
 date_updated: 2018-05-21T19:28:16.000Z
-tags: books, religion, history, politics
+tags: book, religion, history, politics
 ---
 
     Contra um Mundo Melhor (Pondé, Luiz Felipe - 2013)

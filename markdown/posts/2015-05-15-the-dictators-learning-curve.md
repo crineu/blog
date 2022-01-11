@@ -3,7 +3,7 @@ title: [quotes] The dictator’s Learning Curve
 slug: the-dictators-learning-curve
 date_published: 2015-05-15T21:02:00.000Z
 date_updated: 2017-05-02T22:56:48.000Z
-tags: quotes, books
+tags: quotes, book
 ---
 
     The dictator’s Learning Curve (William J. Dobson)

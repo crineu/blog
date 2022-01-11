@@ -3,7 +3,7 @@ title: [book] Deus, um Delírio
 slug: book-deus-um-delirio
 date_published: 2016-03-07T19:04:00.000Z
 date_updated: 2018-05-21T23:24:29.000Z
-tags: books, religion
+tags: book, religion
 ---
 
     Deus, um Delírio (Richard Dawkins, 2006)

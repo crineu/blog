@@ -3,7 +3,7 @@ title: [book] O GPI da Filosofia
 slug: book-o-gpi-da-filosofia
 date_published: 2016-07-17T23:10:00.000Z
 date_updated: 2016-08-31T00:01:36.000Z
-tags: books, politics, history
+tags: book, politics, history
 ---
 
     Guia Politicamente Incorreto da Filosofia (Pondé, Luiz Felipe)

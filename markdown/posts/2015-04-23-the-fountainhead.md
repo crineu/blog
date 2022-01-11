@@ -3,7 +3,7 @@ title: [book] The Fountainhead [1|2]
 slug: the-fountainhead
 date_published: 2015-04-23T21:06:00.000Z
 date_updated: 2017-05-02T22:56:08.000Z
-tags: books, money
+tags: book, money
 ---
 
     The Fountainhead (Ayn Rand, 1943)

@@ -3,7 +3,7 @@ title: [book] Steve Yegge resume
 slug: steve-yegge-resume
 date_published: 2015-03-05T05:53:00.000Z
 date_updated: 2017-05-02T22:54:38.000Z
-tags: books, programming
+tags: book, programming
 ---
 
     A Programmer’s Rantings: On Programming-Language Religions, Code Philosophies, Google Work Culture, and Other Stuff (Steve Yegge, 2012)

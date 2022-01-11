@@ -3,7 +3,7 @@ title: [book] Fooled By Randomness
 slug: fooled-by-randomness
 date_published: 2019-08-04T17:06:26.000Z
 date_updated: 2022-01-07T22:09:01.000Z
-tags: books
+tags: book
 ---
 
 Probability is not a mere computation of odds on the dice or more complicated variants; it is **the acceptance of the lack of certainty in our knowledge** and the development of methods for dealing with our ignorance. Outside of textbooks and casinos, probability almost never presents itself as a mathematical problem or a brain teaser. Mother nature does not tell you how many holes there are on the roulette table, nor does she deliver problems in a textbook way (in the real world one has to guess the problem more than the solution). In this book, considering that alternative outcomes could have taken place, that the world could have been different, is the core of probabilistic thinking.

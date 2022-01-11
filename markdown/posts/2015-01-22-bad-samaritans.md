@@ -1,9 +1,9 @@
 ---
-title: [books] Bad Samaritans
+title: [book] Bad Samaritans
 slug: bad-samaritans
 date_published: 2015-01-22T11:17:00.000Z
 date_updated: 2017-05-02T22:51:36.000Z
-tags: books, economics
+tags: book, economics
 ---
 
     Bad Samaritans – The Myth of Free Trade and the Secret History of Capitalism (Ha-Joon Chang, 2013)
