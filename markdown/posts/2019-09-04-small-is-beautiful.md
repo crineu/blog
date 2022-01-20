@@ -6,7 +6,7 @@ date_updated: 2022-01-12T14:13:01.000Z
 tags: book
 ---
 
-# “...the new problems are not the consequences of incidental failure but of technological success.”
+## “...the new problems are not the consequences of incidental failure but of technological success.”
 
 Here again, nothing can be "proved". _But does it still look probable or plausible that the grave social diseases infecting many rich societies today are merely passing phenomena which an able government - if only we could get a really able government! - could eradicate by simply making faster use of science and technology or a more radical use of the penal system?_ **I suggest that the foundations of peace cannot be laid by universal prosperity, in the moderm sense.** Because such prosperity, if attainable at all, is attainable only by cultivating such drives of human nature as greed and envy, which destroy intelligence, happiness, serenity, and thereby the peacefulness of man.
 
