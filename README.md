@@ -34,8 +34,8 @@ Markdown content from here on...
 
 * sh: for each file in `/markdown`
 * create the `.html` file in the same location in `/docs`
-* fill the `<head>` tag using `docs/header.html` file
-* write the title and excerpt
+* fill the `<head>` tag using `./head_template.html` file
+* write the title
 * insert the image (if present)
 * `cmark` it and write inside the `<body>`
 * generate `index.html` with correct links

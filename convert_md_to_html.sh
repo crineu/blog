@@ -37,7 +37,6 @@ do
 
   # Extract values
   TITLE=$(echo   "${MD_META}" | awk 'BEGIN{FS=": "} /title/{print $2}')
-  EXCERPT=$(echo "${MD_META}" | awk 'BEGIN{FS=": "} /excerpt/{print $2}')
   DATE=$(echo    "${MD_META}" | awk '/date_published/{print $2}' | cut -d'T' -f1)  # 2015-02-18T20:58:49.000Z
   YEAR=$(echo    "${DATE}"    | cut -d'-' -f1)                                     # 2015-02-18
   HEADER=$(sed -e "s/__TITLE__/${TITLE}/" < "${TEMPLATE_HEADER}")
@@ -51,7 +50,7 @@ do
 <html>
 ${HEADER}
 <body>
-  <h1>${TITLE}<small>${DATE} - ${EXCERPT}</small></h1>
+  <h1>${TITLE}<small> ${DATE}</small></h1>
   <main>
     <article>
       ${ARTICLE}

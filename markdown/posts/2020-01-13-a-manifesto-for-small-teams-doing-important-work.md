@@ -4,12 +4,12 @@ slug: a-manifesto-for-small-teams-doing-important-work
 date_published: 2020-01-13T03:33:28.000Z
 date_updated: 2020-01-13T03:33:28.000Z
 tags: lessons, quotes
-excerpt: If you make a promise, set a date. No date, no promise.
 ---
+
+> If you make a promise, set a date. No date, no promise.
 
 ![Seth Godin](../images/seth-godin.jpg)
 
-> Seth's blog
 
 We are always under tight deadlines, because time is our most valuable asset.
 
