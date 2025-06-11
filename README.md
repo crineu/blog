@@ -1,3 +1,5 @@
+https://crineu.github.io/blog/
+
 # Static blog
 
 * Source files are in created in `/markdown`.
