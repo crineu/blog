@@ -2,7 +2,7 @@ https://crineu.github.io/blog/
 
 # Static blog
 
-* Source files are in created in `/markdown`.
+* Source files are created in `/markdown`.
 * HTML files are automatically generated in `/docs`.
 * Images should be placed in `/docs/images`.
 
@@ -50,8 +50,3 @@ Markdown content from here on...
 * `BK_*` files will be created
 * move the ones desired to `a_publicar` or accordingly
 
-
-### [legacy] Migrate from Ghost to Markdown
-
-1 - npm install ghost-to-md
-2 - `node_modules/.bin/ghost-to-md backup.ghost.json`

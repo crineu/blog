@@ -27,7 +27,6 @@ _INICIO_INDEX_
 # INÍCIO Laço cada arquivo Markdown em markdown/posts
 #        por ordem de criação
 # ----------------------------------------------
-# for MD_FILE in "markdown/posts/2015-04-15-ruby-blocks-lambdas.md"
 # for MD_FILE in markdown/posts/*
 for MD_FILE in $(find markdown/posts -type f | sort -r)
 do
