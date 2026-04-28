@@ -41,7 +41,7 @@ do
   HEADER=$(sed -e "s/__TITLE__/${TITLE}/" < "${TEMPLATE_HEADER}")
   ARTICLE=$(cmark --validate-utf8 --smart --to html <(echo "${MD_CONTENT}"))
 
-  HTML_FILE=$(echo "${MD_FILE}" | sed -e "s/^markdown\/posts/docs\/${YEAR}/" | sed -e "s/md$/html/")
+  HTML_FILE=$(echo "${MD_FILE}" | sed -e "s/^markdown\/posts/docs\/${YEAR}/" | sed -e 's/\.md$/.html/;t;s/$/.html/')
   echo "Criando ${HTML_FILE}"
 
   cat << _POST_ > "${HTML_FILE}"
